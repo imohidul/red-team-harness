@@ -1,0 +1,12 @@
+[project]
+name = "red-team-harness"
+version = "0.1.0"
+description = "Automated harness that measures prompt-injection attack success rate (ASR) against local LLMs via Ollama"
+readme = "README.md"
+authors = [
+    { name = "Syed Mohidul Islam", email = "isyedmohidul@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+]
